@@ -1,10 +1,9 @@
 #This will determine what item is used in gambling.
-#Default: GOLD_INGOT
-item: GOLD_INGOT
+#Default: gold_ingot
+item: gold_ingot
 
 #This determines how many of an item someone can gamble at a time.
 #Default: 32
-#WARNING: Never put above 64. Anything above 64 will be reset to default.
 maxItemsToGamble: 32
 
 #This is the percentage chance of winning a jackpot.

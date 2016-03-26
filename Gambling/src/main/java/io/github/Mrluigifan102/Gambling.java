@@ -8,6 +8,8 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.HashMap;
+
 public class Gambling extends JavaPlugin {
     private int winpercent;
     private int jackpotpercent;
@@ -42,6 +44,10 @@ public class Gambling extends JavaPlugin {
 
         try {
             max = getConfig().getInt("maxItemsToGamble");
+            if (max > 64) {
+                getLogger().info("Gambling: The maximum items to gamble is too high!");
+                max = 32;
+            }
         } catch (Exception e) {
             getLogger().info("Gambling: The maximum items to gamble is improperly configured!");
             max = 32;
@@ -49,8 +55,6 @@ public class Gambling extends JavaPlugin {
 
         updateMaxDigits();
     }
-    @Override
-    public void onDisable() {}
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
@@ -74,15 +78,42 @@ public class Gambling extends JavaPlugin {
                     if (n <= max) {
 
                         //Check if player has the right amount of the required item.
-                        if (inv.containsAtLeast(new ItemStack(item), n)) {
+                        if (inv.containsAtLeast(item, n)) {
+                            { //Check if a stack in player's inventory has enough of required item.
+                                ItemStack[] storageContent = inv.getContents();
+                                int i;
+                                for (i = 0; i < storageContent.length; i++) {
+                                    if (storageContent[i].getType().equals(item.getType()) &&
+                                            storageContent[i].getAmount() >= n) {
+                                        item = storageContent[i].clone();
+                                        i = storageContent.length + 1;
+                                    }
+                                }
+                                if (i == storageContent.length) { //No stack had enough of the required item on it.
+                                    player.sendMessage("Please put enough " + item.getType().toString() +
+                                            " in 1 stack and try again.");
+                                    return true;
+                                }
+                            }
+
                             player.sendMessage("Feeling lucky, are we? Then let's gamble!");
 
                             //The gambling minigame.
                             switch (gamble()) {
                                 case 0:
                                     player.sendMessage("Whoops, you lost. Better luck next time.");
-                                    item.setAmount(n);
-                                    inv.remove(item);
+                                    HashMap<Integer, ItemStack> removed = inv.removeItem(item);
+
+                                    //Put back all unnecessarily removed stacks.
+                                    for (int i = 1; i < removed.size(); i++) {
+                                        inv.addItem(item);
+                                    }
+
+                                    if (item.getAmount() > n) { //If we removed a stack of more than n items.
+                                        //Put back a stack of removed stack's size - n.
+                                        item.setAmount(item.getAmount() - n);
+                                        inv.addItem(item);
+                                    }
                                     break;
                                 case 1:
                                     player.sendMessage("You are a winner!");
