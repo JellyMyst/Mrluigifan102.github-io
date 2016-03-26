@@ -24,28 +24,28 @@ public class Gambling extends JavaPlugin {
         try {
             winpercent = getConfig().getInt("win");
         } catch (Exception e) {
-            getLogger().info("Gambling: The win chance is improperly configured!");
+            getLogger().warning("Gambling: The win chance is improperly configured!");
             winpercent = 45;
         }
 
         try {
             jackpotpercent = getConfig().getInt("jackpot");
         } catch (Exception e) {
-            getLogger().info("Gambling: The jackpot chance is improperly configured!");
+            getLogger().warning("Gambling: The jackpot chance is improperly configured!");
             jackpotpercent = 10;
         }
 
         try {
             item = new ItemStack(Material.getMaterial(getConfig().getString("item")));
         } catch (Exception e) {
-            getLogger().info("Gambling: The material is improperly configured!");
+            getLogger().warning("Gambling: The material is improperly configured!");
             item = new ItemStack(Material.GOLD_INGOT);
         }
 
         try {
             max = getConfig().getInt("maxItemsToGamble");
         } catch (Exception e) {
-            getLogger().info("Gambling: The maximum items to gamble is improperly configured!");
+            getLogger().warning("Gambling: The maximum items to gamble is improperly configured!");
             max = 32;
         }
 
