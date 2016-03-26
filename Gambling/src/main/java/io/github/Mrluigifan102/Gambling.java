@@ -44,10 +44,6 @@ public class Gambling extends JavaPlugin {
 
         try {
             max = getConfig().getInt("maxItemsToGamble");
-            if (max > 64) {
-                getLogger().info("Gambling: The maximum items to gamble is too high!");
-                max = 32;
-            }
         } catch (Exception e) {
             getLogger().info("Gambling: The maximum items to gamble is improperly configured!");
             max = 32;
@@ -79,39 +75,31 @@ public class Gambling extends JavaPlugin {
 
                         //Check if player has the right amount of the required item.
                         if (inv.containsAtLeast(item, n)) {
-                            { //Check if a stack in player's inventory has enough of required item.
-                                ItemStack[] storageContent = inv.getContents();
-                                int i;
-                                for (i = 0; i < storageContent.length; i++) {
-                                    if (storageContent[i].getType().equals(item.getType()) &&
-                                            storageContent[i].getAmount() >= n) {
-                                        item = storageContent[i].clone();
-                                        i = storageContent.length + 1;
-                                    }
-                                }
-                                if (i == storageContent.length) { //No stack had enough of the required item on it.
-                                    player.sendMessage("Please put enough " + item.getType().toString() +
-                                            " in 1 stack and try again.");
-                                    return true;
-                                }
-                            }
-
                             player.sendMessage("Feeling lucky, are we? Then let's gamble!");
 
                             //The gambling minigame.
                             switch (gamble()) {
                                 case 0:
                                     player.sendMessage("Whoops, you lost. Better luck next time.");
-                                    HashMap<Integer, ItemStack> removed = inv.removeItem(item);
 
-                                    //Put back all unnecessarily removed stacks.
-                                    for (int i = 1; i < removed.size(); i++) {
-                                        inv.addItem(item);
+                                    //Remove the item one stack at a time, until n items or more have been removed.
+                                    while (n > 0) {
+                                        ItemStack a = inv.getItem(inv.first(item.getType()));
+                                        HashMap<Integer, ItemStack> removed = inv.removeItem(a);
+
+                                        //Put back stacks so we're only taking 1 at a time.
+                                        for (int i = 1; i < removed.size(); i++) {
+                                            inv.addItem(a);
+                                        }
+
+                                        //Decrease the amount left to take.
+                                        n -= a.getAmount();
                                     }
 
-                                    if (item.getAmount() > n) { //If we removed a stack of more than n items.
-                                        //Put back a stack of removed stack's size - n.
-                                        item.setAmount(item.getAmount() - n);
+                                    //Put back items if we took too many.
+                                    if (n < 0) {
+                                        n = Math.abs(n);
+                                        item.setAmount(n);
                                         inv.addItem(item);
                                     }
                                     break;
