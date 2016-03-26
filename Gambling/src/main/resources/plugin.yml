@@ -1,7 +1,7 @@
 name: Gambling
 main: io.github.Mrluigifan102.
-version: 0.1
-author: Mrluigifan102
+version: 0.2
+author: Mrluigifan102 & Clutter123
 commands:
   Gamble:
     description: Gamble a certain number of a pre-determined item.
