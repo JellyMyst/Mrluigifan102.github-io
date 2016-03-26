@@ -35,6 +35,10 @@ public class Gambling extends JavaPlugin {
             jackpotpercent = 10;
         }
 
+        if (winpercent+jackpotpercent > 99) {
+            getLogger().warning("Gambling: It is impossible to lose! Are you sure you configured the chance correctly?");
+        }
+
         try {
             item = new ItemStack(Material.getMaterial(getConfig().getString("item")));
         } catch (Exception e) {
