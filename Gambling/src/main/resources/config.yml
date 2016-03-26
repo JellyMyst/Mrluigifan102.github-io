@@ -1,0 +1,18 @@
+#This will determine what item is used in gambling.
+#Default: gold_ingot
+item: gold_ingot
+
+#This determines how many of an item someone can gamble at a time.
+#Default: 32
+maxItemsToGamble: 32
+
+#This is the percentage chance of winning a jackpot.
+#Default: 10
+jackpot: 10
+
+#This is the percentage change of winning, without getting the jackpot.
+#Default: 45
+win: 45
+
+#The percentage chance of losing is (100 - jackpot - win).
+#Default: 45

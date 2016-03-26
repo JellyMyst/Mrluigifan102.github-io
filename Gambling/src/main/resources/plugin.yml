@@ -1,0 +1,8 @@
+name: Gambling
+main: io.github.Mrluigifan102.
+version: 0.1
+author: Mrluigifan102
+commands:
+  Gamble:
+    description: Gamble a certain number of a pre-determined item.
+    usage: /Gamble [number of items to gamble]
