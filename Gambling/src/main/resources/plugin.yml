@@ -1,6 +1,6 @@
 name: Gambling
 main: io.github.Mrluigifan102.Gambling
-version: 0.3
+version: 1.0
 author: Mrluigifan102 & Clutter123
 commands:
   Gamble:

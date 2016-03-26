@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.Mrluigifan102</groupId>
-    <artifactId>GamblingPlugin</artifactId>
-    <version>0.1</version>
+    <artifactId>Gambling</artifactId>
+    <version>1.0</version>
 
     <build>
         <plugins>
