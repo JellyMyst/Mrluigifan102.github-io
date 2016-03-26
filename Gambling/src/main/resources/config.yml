@@ -4,7 +4,6 @@ item: GOLD_INGOT
 
 #This determines how many of an item someone can gamble at a time.
 #Default: 32
-#WARNING: Never put above 64. Anything above 64 will be reset to default.
 maxItemsToGamble: 32
 
 #This is the percentage chance of winning a jackpot.
