@@ -10,7 +10,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class GamblingPlugin extends JavaPlugin {
     @Override
-    public void onEnable() {}
+    public void onEnable() {
+        saveDefaultConfig();
+    }
     @Override
     public void onDisable() {}
 
@@ -19,8 +21,14 @@ public class GamblingPlugin extends JavaPlugin {
         if (cmd.getName().equalsIgnoreCase("gamble")) {
             if (sender instanceof Player) {
                 Player player = (Player)sender;
-                String placeholder = "coal";
                 Inventory inv = player.getInventory();
+                Material item;
+                try {
+                    item = Material.getMaterial(getConfig().getString("material").toUpperCase());
+                } catch (Exception e) {
+                    getLogger().info("GsmblingPlugin: The material is improperly configured!");
+                    item = Material.GOLD_INGOT;
+                }
 
                 //Check if there's an argument, and if that argument is a positive integer.
                 if (args.length == 1 && isInteger(args[0])) {
@@ -30,37 +38,40 @@ public class GamblingPlugin extends JavaPlugin {
                     if (n < 33) {
 
                         //Check if player has the right amount of the required item.
-                        if (inv.containsAtLeast(new ItemStack(Material.COAL), n)) {
+                        if (inv.containsAtLeast(new ItemStack(item), n)) {
                             player.sendMessage("Feeling lucky, are we? Then let's gamble!");
 
                             //The gambling minigame.
                             switch (gamble()) {
                                 case 0:
                                     player.sendMessage("Whoops, you lost. Better luck next time.");
-                                    inv.remove(new ItemStack(Material.COAL, n));
+                                    inv.remove(new ItemStack(item, n));
                                     break;
                                 case 1:
                                     player.sendMessage("You are a winner!");
-                                    inv.addItem(new ItemStack(Material.COAL, n));
+                                    inv.addItem(new ItemStack(item, n));
                                     break;
                                 case 2:
                                     player.sendMessage("Congratulations! You've won the jackpot!");
-                                    inv.addItem(new ItemStack(Material.COAL, n*4));
+                                    inv.addItem(new ItemStack(item, n*4));
                                     break;
                                 default:
                                     player.sendMessage("Oh. I'm sorry. Something went wrong. " +
                                             "Please check if your inventory's the same, and contact an admin if it isn't.");
                             }
+                            return true;
 
                         } else {
                             //The player didn't have enough of the item in their inventory.
-                            player.sendMessage("You actually need to have " + n + " " + placeholder +
+                            player.sendMessage("You actually need to have " + n + " " + item.getData().getName() +
                                     " in your inventory to gamble that many.");
+                            return true;
                         }
 
                     } else {
                         //A number higher than the maximum was specified
                         player.sendMessage("I can't let you gamble with more than 32 items.");
+                        return true;
                     }
 
                 } else {
@@ -72,9 +83,8 @@ public class GamblingPlugin extends JavaPlugin {
             } else {
                 //The command was sent by a non-player.
                 sender.sendMessage("Sorry, but this command can only be used by a player.");
+                return true;
             }
-
-            return true;
         }
 
         return false;
@@ -113,9 +123,20 @@ public class GamblingPlugin extends JavaPlugin {
      * @return An integer representing win-state: 0 is a loss, 1 is a win, 2 is a jackpot.
      */
     private int gamble() {
-        int jackpot = 10;
-        int win = 45;
-        int n = (int)Math.floor(Math.random()*100);
+        int jackpot, win;
+        try {
+            jackpot = getConfig().getInt("jackpot");
+        } catch (Exception e) {
+            getLogger().info("GamblingPlugin: The percentage chance to win the jackpot is improperly configured!");
+            jackpot = 10;
+        }
+        try {
+            win = getConfig().getInt("win");
+        } catch (Exception e) {
+            getLogger().info("GamblingPlugin: The percentage chance to win is improperly configured!");
+            win = 45;
+        }
+        double n = Math.random()*100;
         if (n < jackpot) {
             return 2;
         } else {
