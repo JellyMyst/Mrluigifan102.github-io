@@ -13,6 +13,7 @@ public class Gambling extends JavaPlugin {
     private int jackpotpercent;
     private ItemStack item;
     private int max;
+    private int maxDigits;
 
     @Override
     public void onEnable() {
@@ -45,6 +46,8 @@ public class Gambling extends JavaPlugin {
             getLogger().info("Gambling: The maximum items to gamble is improperly configured!");
             max = 32;
         }
+
+        updateMaxDigits();
     }
     @Override
     public void onDisable() {}
@@ -142,7 +145,7 @@ public class Gambling extends JavaPlugin {
             if (c != '0' || checkNonZeroDigits > 0) {
                 checkNonZeroDigits++;
             }
-            if (checkNonZeroDigits == 3) {
+            if (checkNonZeroDigits == maxDigits+1) {
                 return false;
             }
         }
@@ -164,5 +167,12 @@ public class Gambling extends JavaPlugin {
             return 1;
         }
         return 0;
+    }
+
+    /**
+     * Redefines maxDigits to match current max.
+     */
+    private void updateMaxDigits() {
+        maxDigits = (int)(Math.log10(max)+1);
     }
 }
