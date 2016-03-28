@@ -1,10 +1,17 @@
 #This will determine what item is used in gambling.
 #Default: GOLD_INGOT
-item: GOLD_INGOT
+item: gold_ingot
 
 #This determines how many of an item someone can gamble at a time.
 #Default: 32
 maxItemsToGamble: 32
+
+#This determines if players are allowed to gamble by default.
+#All players who have the opposite privileges, will be stored by their UUIDs in a file called players.yml, separated by commas.
+#WARNING: Changing this will invert every player's right to gamble when the plugin is (re)loaded.
+#         Call the InvertAllGamblingRights command to undo this.
+#Default: true
+allowedByDefault: true
 
 #This is the percentage chance of winning a jackpot.
 #Default: 10

@@ -1,8 +1,14 @@
 name: Gambling
 main: io.github.Mrluigifan102.Gambling
-version: 1.0
+version: 1.1
 author: Mrluigifan102 & Clutter123
 commands:
   Gamble:
     description: Gamble a certain number of a pre-determined item.
     usage: /Gamble [number of items to gamble]
+  ToggleGamblingRights:
+    description: Inverts a apecified user's right to gamble.
+    usage: /ToggleGamblingRights [user]
+  ToggleAllGamblingRights:
+    description: Inverts gambling rights of every player who has ever been on the server.
+    usage: /ToggleAllGamblingRights
