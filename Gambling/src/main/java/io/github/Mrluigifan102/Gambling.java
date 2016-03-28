@@ -192,7 +192,7 @@ public class Gambling extends JavaPlugin {
             //Check if sender is OP.
             if (!sender.isOp()) {
                 sender.sendMessage("You must be OP to use this command.");
-                return false;
+                return true;
             }
 
             //Check if there are arguments
@@ -207,7 +207,7 @@ public class Gambling extends JavaPlugin {
                 return false;
             }
 
-            OfflinePlayer target = getServer().getOfflinePlayer(args[0]);
+            @SuppressWarnings("deprecation") OfflinePlayer target = getServer().getOfflinePlayer(args[0]);
 
             //Check if a player with the given name exists.
             if (target == null) {
