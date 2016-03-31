@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4fa3b7a-54f6-4dea-b57a-79bf0ea90946" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_9_R0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_9_R0_1_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.yml" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" />
     </list>
     <ignored path="Gambling.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,6 +27,13 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Gambling" />
@@ -34,21 +43,31 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            <state relative-caret-position="660">
+              <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gambling.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gambling.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="209" column="106" selection-start-line="209" selection-start-column="106" selection-end-line="209" selection-end-column="106" />
+            <state relative-caret-position="352">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#8707#8739#1" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+                <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+                <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+                <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+                <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+                <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+                <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+                <element signature="e#14496#14497#0" expanded="false" />
+                <element signature="e#14548#14549#0" expanded="false" />
+                <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+                <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -64,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="127" selection-start-line="9" selection-start-column="127" selection-end-line="9" selection-end-column="127" />
+            <state relative-caret-position="242">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -97,9 +116,9 @@
         <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_9_R0_1_SNAPSHOT.xml" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/UUIDFetcher.java" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
       </list>
     </option>
   </component>
@@ -158,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,43 +258,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gambling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gambling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gambling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gambling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -740,12 +727,18 @@
       <workItem from="1459025376550" duration="5715000" />
       <workItem from="1459104796630" duration="614000" />
       <workItem from="1459107737794" duration="20005000" />
-      <workItem from="1459158002041" duration="9550000" />
+      <workItem from="1459158002041" duration="10714000" />
+      <workItem from="1459240511139" duration="567000" />
+      <workItem from="1459250757657" duration="322000" />
+      <workItem from="1459266000220" duration="3989000" />
+      <workItem from="1459334317748" duration="5520000" />
+      <workItem from="1459373585349" duration="1240000" />
+      <workItem from="1459419949251" duration="1210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43302000" />
+    <option name="totallyTimeSpent" value="57314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -758,23 +751,23 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33258173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20064378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33258173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -802,16 +795,53 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="660">
+          <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_7_9_R0_2.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="352">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
           <folding />
         </state>
       </provider>
@@ -821,8 +851,244 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8707#8739#1" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="127" selection-start-line="9" selection-start-column="127" selection-end-line="9" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="127" selection-start-line="9" selection-start-column="127" selection-end-line="9" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4312">
+          <caret line="209" column="106" selection-start-line="209" selection-start-column="106" selection-end-line="209" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4312">
+          <caret line="209" column="106" selection-start-line="209" selection-start-column="106" selection-end-line="209" selection-end-column="106" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="127" selection-start-line="9" selection-start-column="127" selection-end-line="9" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="127" selection-start-line="9" selection-start-column="127" selection-end-line="9" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_7_9_R0_2.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -851,21 +1117,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_7_9_R0_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_7_9_R0_2.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="38" column="118" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="118" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8707#8739#1" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -894,21 +1163,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_7_9_R0_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_7_9_R0_2.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="38" column="118" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="118" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8707#8739#1" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -937,21 +1209,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_7_9_R0_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_7_9_R0_2.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8707#8739#1" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -974,19 +1249,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1.9-R0.1-SNAPSHOT.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/UUIDFetcher.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_7_9_R0_2.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__org_bukkit_bukkit_1_7_9_R0_2.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="660">
+          <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="127" selection-start-line="9" selection-start-column="127" selection-end-line="9" selection-end-column="127" />
-          <folding />
+        <state relative-caret-position="352">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="e#14496#14497#0" expanded="false" />
+            <element signature="e#14548#14549#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -998,22 +1287,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        <state relative-caret-position="242">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="209" column="106" selection-start-line="209" selection-start-column="106" selection-end-line="209" selection-end-column="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8707#8739#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
