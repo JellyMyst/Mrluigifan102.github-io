@@ -13,13 +13,13 @@ maxItemsToGamble: 32
 #Default: true
 allowedByDefault: true
 
-#This is the percentage chance of winning a jackpot.
+#This is the percentage chance of winning a jackpot. Calculated first.
 #Default: 10
 jackpot: 10
 
-#This is the percentage change of winning, without getting the jackpot.
+#This is the percentage change of winning, without getting the jackpot. Calcutated second.
 #Default: 45
 win: 45
 
-#The percentage chance of losing is (100 - jackpot - win).
+#The percentage chance of losing is (100 - jackpot - win). Calculated third.
 #Default: 45
