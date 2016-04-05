@@ -347,12 +347,13 @@ public class Gambling extends JavaPlugin {
         double n = Math.random()*100;
         if (n < jackpotpercent) {
             return 2;
-        } else {
-            n -= jackpotpercent;
         }
+
+        n -= jackpotpercent;
         if (n < winpercent) {
             return 1;
         }
+
         return 0;
     }
 
@@ -372,7 +373,7 @@ public class Gambling extends JavaPlugin {
         try {
             ymlConfig.save(ymlFile);
         } catch (IOException e) {
-            e.printStackTrace();
+            getLogger().warning(ymlFile.getName() + " couldn't be saved!");
         }
     }
 }

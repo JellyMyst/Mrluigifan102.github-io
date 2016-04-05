@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4fa3b7a-54f6-4dea-b57a-79bf0ea90946" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.yml" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java" />
     </list>
     <ignored path="Gambling.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,13 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gambling.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gambling.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="546">
+              <caret line="345" column="25" selection-start-line="345" selection-start-column="25" selection-end-line="345" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="false" />
                 <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
                 <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
                 <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -63,8 +62,6 @@
                 <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
                 <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
                 <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-                <element signature="e#14496#14497#0" expanded="false" />
-                <element signature="e#14548#14549#0" expanded="false" />
                 <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
                 <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
               </folding>
@@ -82,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
@@ -116,8 +113,8 @@
         <option value="$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/UUIDFetcher.java" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java" />
       </list>
     </option>
   </component>
@@ -176,7 +173,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,8 +257,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -733,12 +730,15 @@
       <workItem from="1459334317748" duration="5520000" />
       <workItem from="1459373585349" duration="1240000" />
       <workItem from="1459419949251" duration="2402000" />
-      <workItem from="1459533893432" duration="693000" />
+      <workItem from="1459533893432" duration="1217000" />
+      <workItem from="1459627643227" duration="598000" />
+      <workItem from="1459676213361" duration="615000" />
+      <workItem from="1459852458095" duration="2348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59199000" />
+    <option name="totallyTimeSpent" value="63284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -806,7 +806,6 @@
         <state relative-caret-position="352">
           <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
             <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -814,8 +813,6 @@
             <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
             <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
             <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
@@ -851,7 +848,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
             <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -859,8 +855,6 @@
             <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
             <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
             <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
@@ -896,7 +890,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
             <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -904,8 +897,6 @@
             <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
             <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
             <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
@@ -941,7 +932,6 @@
         <state relative-caret-position="4312">
           <caret line="209" column="106" selection-start-line="209" selection-start-column="106" selection-end-line="209" selection-end-column="106" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
             <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -949,8 +939,6 @@
             <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
             <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
             <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
@@ -986,7 +974,6 @@
         <state relative-caret-position="4312">
           <caret line="209" column="106" selection-start-line="209" selection-start-column="106" selection-end-line="209" selection-end-column="106" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
             <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -994,8 +981,6 @@
             <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
             <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
             <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
@@ -1031,7 +1016,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
             <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -1039,8 +1023,6 @@
             <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
             <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
             <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
@@ -1077,7 +1059,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
             <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -1085,8 +1066,6 @@
             <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
             <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
             <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
@@ -1123,7 +1102,6 @@
         <state relative-caret-position="660">
           <caret line="38" column="118" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="118" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
             <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -1131,8 +1109,6 @@
             <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
             <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
             <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
@@ -1169,7 +1145,6 @@
         <state relative-caret-position="660">
           <caret line="38" column="118" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="118" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
             <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -1177,8 +1152,6 @@
             <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
             <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
             <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
@@ -1215,7 +1188,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
             <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
@@ -1223,8 +1195,6 @@
             <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
             <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
             <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
             <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
           </folding>
@@ -1258,27 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
-            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
-            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
-            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
-            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
-            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
-            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
-            <element signature="e#14496#14497#0" expanded="false" />
-            <element signature="e#14548#14549#0" expanded="false" />
-            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
-            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1292,6 +1241,24 @@
         <state relative-caret-position="506">
           <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/github/Mrluigifan102/Gambling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="345" column="25" selection-start-line="345" selection-start-column="25" selection-end-line="345" selection-end-column="25" />
+          <folding>
+            <element signature="method#onEnable#0;class#Gambling#0" expanded="false" />
+            <element signature="method#onCommand#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="method#isInteger#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="method#gamble#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#updateMaxDigits#0;class#Gambling#0" expanded="false" />
+            <element signature="docComment;method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+            <element signature="method#saveCustomYml#0;class#Gambling#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
